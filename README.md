@@ -4,7 +4,6 @@
 
 - docker build -t _name_ _path_
 - docker images
-- docker images
 - docker run --name _containerName_ _imageName_
 - docker run --name _containerName_ -p 4000:4000 -d _imageName_
 - docker start _containerName_
