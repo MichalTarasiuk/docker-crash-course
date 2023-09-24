@@ -2,11 +2,11 @@
 
 ## commands
 
-- docker build -t _name_ _path_
-- docker images
-- docker run --name _containerName_ _imageName_
-- docker run --name _containerName_ -p 4000:4000 -d _imageName_
-- docker start _containerName_
+- docker build -t _name_ _path_ -- create container
+- docker images -- list of images
+- docker run --name _containerName_ _imageName_ -- create container
+- docker run --name _containerName_ -p 4000:4000 -d _imageName_ -- create container
+- docker start _containerName_ -- start container
 - docker ps -- list of running containers
-- docker ps -a
-- docker stop _containerName_
+- docker ps -a -- list of all containers
+- docker stop _containerName_ -- stop container
