@@ -20,3 +20,6 @@
 - docker container rm _containerName_ -- remove container
 - docker container rm _containerName_ _containerName_ -- remove many containers
 - docker system prune -a -- remove all images, containers and volumes
+- docker-compose up -- run docker compose file
+- docker-compsoe down -- stop and delete container 
+- docker-compose down --rmi all -v  -- as above and also remove image and volume 
