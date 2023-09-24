@@ -1,3 +1,6 @@
+// How to start:
+// docker run --name docker-crash-course-container -p 4000:4000 -v /Users/michaltarasiuk/Sites/docker-crash-course:/app docker-crash-course
+
 const express = require('express');
 const cors = require('cors');
 
