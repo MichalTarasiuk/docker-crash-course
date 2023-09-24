@@ -1,5 +1,5 @@
-// How to start:
-// docker run --name docker-crash-course-container -p 4000:4000 -v /Users/michaltarasiuk/Sites/docker-crash-course:/app docker-crash-course
+// How to start without docker compose:
+// docker run --name docker-crash-course-container -p 4000:4000 -v /Users/michaltarasiuk/Sites/docker-crash-course/api:/app docker-crash-course
 
 const express = require('express');
 const cors = require('cors');
@@ -11,7 +11,7 @@ app.use(cors());
 app.get('/', (_req, res) => {
   res.json([
     {
-      id: '1',
+      id: '2',
       title: 'Book Review: The Bear & The Nightingale',
     },
     {
